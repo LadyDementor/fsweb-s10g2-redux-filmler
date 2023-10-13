@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { DELETE_MOVIE, deleteMovie } from "../actions/movieActions";
+import { DELETE_MOVIE } from "../actions/movieActions";
 
 const Movie = (props) => {
   const dispatch = useDispatch();
